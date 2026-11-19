@@ -107,7 +107,15 @@
 
 ## 🚀 Featured Projects
 
-### 🚦 VR-TSD: Vietnamese Traffic Sign Recognition
+| Project | Domain | Highlights |
+|---|---|---|
+| 🏭 [Industrial Smart Quality Control System](https://github.com/LinhNhat07/Industrial-Smart-Quality-Control-System) | Computer Vision · Edge AI | Real-time inspection on Jetson + TensorRT, < 20 ms, PLC auto-reject |
+| 👁️ [Defect Classification for Small-Scale Flaws](https://github.com/LinhNhat07/Defect-Classification-for-Medium-and-Small-Scale-Flaws) | Computer Vision | Keyence XG-X + YOLOv11, 14k images, 6 defect classes |
+| 🚦 [VR-TSD: Vietnamese Traffic Sign Recognition](https://github.com/LinhNhat07/Vietnamese-Traffic-Sign-Detection) | Computer Vision · Research | CSA 2025 paper, mAP@50 0.94, 168 FPS |
+| 📰 [Vietnamese News Sentiment Classification](https://github.com/LinhNhat07/Vietnamese-News-Sentiment-Classification) | NLP | PhoBERT on 18.9k VnExpress articles |
+| 🏠 [HCMC House Price Prediction](https://github.com/LinhNhat07/House_Price) | Machine Learning | XGBoost, R² 0.80 on 9.5k listings |
+
+### 🚦 [VR-TSD: Vietnamese Traffic Sign Recognition](https://github.com/LinhNhat07/Vietnamese-Traffic-Sign-Detection)
 > *A Real-World Dataset and a Lightweight YOLOv8n Model for Traffic Sign Recognition in Vietnam*
 
 - 📄 Paper accepted at **CSA 2025 – The 17th International Conference on Computer Science and its Applications** · [Read on Springer](https://link.springer.com/chapter/10.1007/978-981-95-7896-2_10)
@@ -117,13 +125,13 @@
 - Tech: `Python` `OpenCV` `PyTorch` `gTTS`
 - 🎬 [Demo](https://drive.google.com/file/d/1JtekjwLvfJC0tHHrWJdlvd40RyeMrAkl/view?usp=drive_link)
 
-### 🏠 Ho Chi Minh City House Price Prediction with XGBoost (2026)
+### 🏠 [Ho Chi Minh City House Price Prediction with XGBoost (2026)](https://github.com/LinhNhat07/House_Price)
 - Cleaned a dataset of **9,481 real-estate listings**; handled outliers and missing values, engineered features
 - Trained and tuned an XGBoost Regressor
 - Results: **R² = 0.80**, MAE = 1.01, RMSE = 1.45, MAPE ≈ 17%
 - Tech: `Python` `NumPy` `Pandas` `Scikit-learn` `XGBoost`
 
-### 📰 Vietnamese News Sentiment Classification with PhoBERT
+### 📰 [Vietnamese News Sentiment Classification with PhoBERT](https://github.com/LinhNhat07/Vietnamese-News-Sentiment-Classification)
 - Collected and labeled **18,900 VnExpress articles** (Negative / Neutral / Positive)
 - Fine-tuned **PhoBERT** in PyTorch with class balancing
 - Results: **Accuracy = 78.25%**, F1-weighted = 0.78, F1-macro = 0.69 on an imbalanced dataset
