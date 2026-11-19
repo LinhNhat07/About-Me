@@ -109,7 +109,8 @@
 
 | Project | Domain | Highlights |
 |---|---|---|
-| 🏭 [Industrial Smart Quality Control System](https://github.com/LinhNhat07/Industrial-Smart-Quality-Control-System) | Computer Vision · Edge AI | Real-time inspection on Jetson + TensorRT, < 20 ms, PLC auto-reject |
+| 🏭 [Industrial AI Vision Projects](https://github.com/LinhNhat07/Industrial-Smart-Quality-Control-System) | Computer Vision · Edge AI | Production inspection systems on Jetson + TensorRT, < 20 ms, PLC auto-reject |
+| 🍶 [MKA-B9: Bottle-Bottom Thread Inspection](https://github.com/LinhNhat07/Industrial-Smart-Quality-Control-System/tree/main/projects/MKA-B9-Bottle-Bottom-Thread-Inspection) | Computer Vision · Edge AI | Two-stage RT-DETRv2, TensorRT FP16 on Jetson Orin Nano, PLC-triggered |
 | 👁️ [Defect Classification for Small-Scale Flaws](https://github.com/LinhNhat07/Defect-Classification-for-Medium-and-Small-Scale-Flaws) | Computer Vision | Keyence XG-X + YOLOv11, 14k images, 6 defect classes |
 | 🚦 [VR-TSD: Vietnamese Traffic Sign Recognition](https://github.com/LinhNhat07/Vietnamese-Traffic-Sign-Detection) | Computer Vision · Research | CSA 2025 paper, mAP@50 0.94, 168 FPS |
 | 📰 [Vietnamese News Sentiment Classification](https://github.com/LinhNhat07/Vietnamese-News-Sentiment-Classification) | NLP | PhoBERT on 18.9k VnExpress articles |
