@@ -109,7 +109,7 @@
 
 | Project | Domain | Highlights |
 |---|---|---|
-| 🏭 [Industrial AI Visual Inspection System](https://github.com/LinhNhat07/Industrial-Smart-Quality-Control-System) | Computer Vision · Edge AI | RT-DETR / YOLO on Jetson + TensorRT, < 20 ms, PLC-triggered capture & auto-reject |
+| 🏭 [Industrial AI Visual Inspection System](https://github.com/LinhNhat07/Industrial-Smart-Quality-Control-System) | Computer Vision · Edge AI | Appearance defects (RT-DETR) + label skew/inversion (YOLO11) on Jetson, < 20 ms, PLC/Modbus |
 | 👁️ [Defect Classification for Small-Scale Flaws](https://github.com/LinhNhat07/Defect-Classification-for-Medium-and-Small-Scale-Flaws) | Computer Vision | Keyence XG-X + YOLOv11, 14k images, 6 defect classes |
 | 🚦 [VR-TSD: Vietnamese Traffic Sign Recognition](https://github.com/LinhNhat07/Vietnamese-Traffic-Sign-Detection) | Computer Vision · Research | CSA 2025 paper, mAP@50 0.94, 168 FPS |
 | 📰 [Vietnamese News Sentiment Classification](https://github.com/LinhNhat07/Vietnamese-News-Sentiment-Classification) | NLP | PhoBERT on 18.9k VnExpress articles |
