@@ -87,7 +87,7 @@
 - Built a desktop app (PyQt5) and web apps (FastAPI/Flask) with real-time monitoring dashboards, logging and defect statistics on PostgreSQL
 - Instant alerts via Telegram API; buzzers and warning lights controlled over Modbus RTU / RS485 / ESP32
 - System in production at the company and at its **parent company in Japan**
-- 🎬 [Project demo](https://drive.google.com/drive/folders/1SxIDtwbnsQlO3FvqJkyTdKspGBzYx1n4)
+- 🎬 [Project demo](https://drive.google.com/drive/folders/1SxIDtwbnsQlO3FvqJkyTdKspGBzYx1n4?usp=sharing)
 
 **🤖 Internal AI Chatbot**
 - Chatbot combining **RAG** with open-source LLMs (Gemma, gpt-oss, Qwen)
