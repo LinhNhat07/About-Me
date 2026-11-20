@@ -45,7 +45,7 @@
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=flat-square)
 
-**Models & Architectures:** YOLO (v5/v8/v11, YOLOX, YOLO-NAS), RT-DETR, RTMDet, SSD-MobileNet, PatchCore, DeepLabV3, ResNet, EfficientNet, ViT, CLIP, Transformer, PhoBERT
+**Models & Architectures:** YOLO (v5/v8/v11, YOLOX, YOLO-NAS), RT-DETR, RTMDet, EfficientDet, Detectron2 (Faster R-CNN), SSD-MobileNet, PatchCore, DeepLabV3, ResNet, EfficientNet, ViT, CLIP, Transformer, PhoBERT
 
 **LLM & Chatbots:** RAG, local / on-premise chatbots, open-source LLMs (Gemma 4, gpt-oss, DeepSeek, Qwen)
 
@@ -76,16 +76,18 @@
 ### 🏢 AI Engineer — Hondaplus Vietnam Co., Ltd.
 *Feb 2025 – Present*
 
-**🔍 Industrial Defect Detection & Quality Inspection System**
-- Researched, benchmarked and deployed YOLO (v8, v11, YOLOX, YOLO-NAS), RTMDet, SSD-MobileNet and RT-DETR; applied **PatchCore** for anomaly detection when defect data is scarce and **DeepLabV3** for semantic segmentation (ResNet/ViT backbones). Achieved **mAP@50 of 0.89 – 0.99**
+**🔍 [Industrial AI Visual Inspection System](https://github.com/LinhNhat07/Industrial-AI-Visual-Inspection-System)**
+- Two inspection problems on bottle production lines: **appearance inspection** (defects, foreign objects, plastic threads) and **label inspection** (skewed, inverted, misplaced labels)
+- Researched, benchmarked and deployed YOLO (v8, v11, YOLOX, YOLO-NAS), RTMDet, RT-DETR, EfficientDet, Detectron2 (Faster R-CNN) and SSD-MobileNet; two-stage **RT-DETRv2** (crop → detect) for tiny defects; **PatchCore** anomaly detection when defect data is scarce; **DeepLabV3** for semantic segmentation (ResNet/ViT backbones). Achieved **mAP@50 of 0.89 – 0.99**
+- Label inspection with cascaded detectors and a configurable rule engine (split lines → OK / NG), object tracking to count each bottle once, and per-product profiles
 - Acquired live data from industrial cameras (Keyence, Basler, Cognex, Dino-Lite) using OpenCV and hardware-accelerated GStreamer
 - Collected raw production-line data, filtered noise and manually labeled images to build a high-quality ground-truth dataset
-- Deployed on Jetson Orin/Nano, Raspberry Pi and an RTX 5060 workstation; optimized with TensorRT and ONNX (FP16/INT8) for **real-time latency under 20 ms**
-- Sent real-time control signals to **PLCs** to trigger air blowers or robotic arms that remove defective products from the line
+- Deployed on Jetson Orin / Orin Nano / Nano and an RTX 5060 workstation; optimized with TensorRT and ONNX (FP16/INT8) for **real-time latency under 20 ms**
+- PLC-triggered capture and real-time NG signals to **Keyence PLCs** to trigger air blowers or robotic arms that remove defective products from the line
 - Built a desktop app (PyQt5) and web apps (FastAPI/Flask) with real-time monitoring dashboards, logging and defect statistics on PostgreSQL
-- Instant alerts via Telegram API; buzzers and warning lights controlled over RS485/ESP32
+- Instant alerts via Telegram API; buzzers and warning lights controlled over Modbus RTU / RS485 / ESP32
 - System in production at the company and at its **parent company in Japan**
-- 🎬 [Project demo](https://drive.google.com/drive/folders/1SxIDtwbnsQlO3FvqJkyTdKspGBzYx1n4?usp=drive_link)
+- 🎬 [Project demo](https://drive.google.com/drive/folders/1SxIDtwbnsQlO3FvqJkyTdKspGBzYx1n4)
 
 **🤖 Internal AI Chatbot**
 - Chatbot combining **RAG** with open-source LLMs (Gemma, gpt-oss, Qwen)
@@ -109,13 +111,12 @@
 
 | Project | Domain | Highlights |
 |---|---|---|
-| 🏭 [Industrial AI Visual Inspection System](https://github.com/LinhNhat07/Industrial-Smart-Quality-Control-System) | Computer Vision · Edge AI | Appearance defects (RT-DETR) + label skew/inversion (YOLO11) on Jetson, < 20 ms, PLC/Modbus |
-| 👁️ [Defect Classification for Small-Scale Flaws](https://github.com/LinhNhat07/Defect-Classification-for-Medium-and-Small-Scale-Flaws) | Computer Vision | Keyence XG-X + YOLOv11, 14k images, 6 defect classes |
-| 🚦 [VR-TSD: Vietnamese Traffic Sign Recognition](https://github.com/LinhNhat07/Vietnamese-Traffic-Sign-Detection) | Computer Vision · Research | CSA 2025 paper, mAP@50 0.94, 168 FPS |
+| 🏭 [Industrial AI Visual Inspection System](https://github.com/LinhNhat07/Industrial-AI-Visual-Inspection-System) | Computer Vision · Edge AI | Appearance defects (RT-DETR + PatchCore) and label skew/inversion (YOLO / RTMDet / RT-DETR) on Jetson, < 20 ms, PLC/Modbus |
+| 🚦 [VR-TSD: Vietnamese Traffic Sign Recognition](https://github.com/LinhNhat07/VR-TSD-Vietnamese-Traffic-Sign-Recognition) | Computer Vision · Research | CSA 2025 paper, mAP@50 0.94, 168 FPS |
 | 📰 [Vietnamese News Sentiment Classification](https://github.com/LinhNhat07/Vietnamese-News-Sentiment-Classification) | NLP | PhoBERT on 18.9k VnExpress articles |
 | 🏠 [HCMC House Price Prediction](https://github.com/LinhNhat07/House_Price) | Machine Learning | XGBoost, R² 0.80 on 9.5k listings |
 
-### 🚦 [VR-TSD: Vietnamese Traffic Sign Recognition](https://github.com/LinhNhat07/Vietnamese-Traffic-Sign-Detection)
+### 🚦 [VR-TSD: Vietnamese Traffic Sign Recognition](https://github.com/LinhNhat07/VR-TSD-Vietnamese-Traffic-Sign-Recognition)
 > *A Real-World Dataset and a Lightweight YOLOv8n Model for Traffic Sign Recognition in Vietnam*
 
 - 📄 Paper accepted at **CSA 2025 – The 17th International Conference on Computer Science and its Applications** · [Read on Springer](https://link.springer.com/chapter/10.1007/978-981-95-7896-2_10)
