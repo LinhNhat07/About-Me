@@ -113,7 +113,7 @@
 |---|---|---|
 | 🏭 [Industrial AI Visual Inspection System](https://github.com/LinhNhat07/Industrial-AI-Visual-Inspection-System) | Computer Vision · Edge AI | Appearance defects (RT-DETR + PatchCore) and label skew/inversion (YOLO / RTMDet / RT-DETR) on Jetson, < 20 ms, PLC/Modbus |
 | 🚦 [VR-TSD: Vietnamese Traffic Sign Recognition](https://github.com/LinhNhat07/VR-TSD-Vietnamese-Traffic-Sign-Recognition) | Computer Vision · Research | CSA 2025 paper (co-author), mAP@50 0.94, 168 FPS + Vietnamese voice alerts |
-| 📰 [Vietnamese News Sentiment Classification](https://github.com/LinhNhat07/Vietnamese-News-Sentiment-Classification) | NLP | PhoBERT on 18.9k VnExpress articles |
+| 💬 [Vietnamese News Comment Sentiment Classification](https://github.com/LinhNhat07/Vietnamese-News-Sentiment-Classification) | NLP | PhoBERT on 9.2k labeled VnExpress reader comments, 78% accuracy |
 | 🏠 [HCMC House Price Prediction](https://github.com/LinhNhat07/House_Price) | Machine Learning | XGBoost, R² 0.80 on 9.5k listings |
 
 ### 🚦 [VR-TSD: Vietnamese Traffic Sign Recognition](https://github.com/LinhNhat07/VR-TSD-Vietnamese-Traffic-Sign-Recognition)
@@ -134,8 +134,8 @@
 - Results: **R² = 0.80**, MAE = 1.01, RMSE = 1.45, MAPE ≈ 17%
 - Tech: `Python` `NumPy` `Pandas` `Scikit-learn` `XGBoost`
 
-### 📰 [Vietnamese News Sentiment Classification with PhoBERT](https://github.com/LinhNhat07/Vietnamese-News-Sentiment-Classification)
-- Collected and labeled **18,900 VnExpress articles** (Negative / Neutral / Positive)
+### 💬 [Vietnamese News Comment Sentiment Classification with PhoBERT](https://github.com/LinhNhat07/Vietnamese-News-Sentiment-Classification)
+- Crawled **18,913 reader comments** from VnExpress (Selenium + BeautifulSoup) and labeled **9,153** of them (Negative / Neutral / Positive)
 - Fine-tuned **PhoBERT** in PyTorch with class balancing
 - Results: **Accuracy = 78.25%**, F1-weighted = 0.78, F1-macro = 0.69 on an imbalanced dataset
 - Tech: `Python` `PyTorch` `Hugging Face` `PhoBERT`
