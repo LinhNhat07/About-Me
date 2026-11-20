@@ -120,6 +120,7 @@
 > *A Real-World Dataset and a Lightweight YOLOv8n Model for Traffic Sign Recognition in Vietnam*
 
 - 📄 **Co-author** of the paper published at **CSA 2025 – The 17th International Conference on Computer Science and its Applications** · [Read on Springer](https://link.springer.com/chapter/10.1007/978-981-95-7896-2_10)
+- **My role:** worked across the research pipeline: data collection and labeling, preprocessing, training and benchmarking, and evaluation
 - **VR-TSD dataset:** 58 classes, 8,078 images, 13,016 manually labeled boxes from dash cams and phones (night, backlight, rain, occlusion)
 - Benchmarked 6 lightweight models (YOLOv5nu/su, YOLOv8n/s, YOLO11n/s); chose **YOLOv8n** for its balance of accuracy, speed and size
 - Results: **mAP@0.5 = 0.9434**, **168.86 FPS** on an NVIDIA A100, **77.52 FPS** on iPhone 11 Pro Max (NCNN), 6 MB
