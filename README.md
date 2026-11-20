@@ -62,6 +62,7 @@
 
 ![NVIDIA Jetson](https://img.shields.io/badge/NVIDIA%20Jetson-76B900?style=flat-square&logo=nvidia&logoColor=white)
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white)
+![Modbus](https://img.shields.io/badge/Modbus-004A87?style=flat-square&logoColor=white)
 
 - Edge devices: NVIDIA Jetson (AGX, Orin, Orin Nano, Nano); FP16/INT8 model quantization
 - Industrial cameras: Keyence, Basler, Cognex, Dino-Lite
