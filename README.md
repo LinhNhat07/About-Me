@@ -61,10 +61,9 @@
 **Edge AI, Hardware & IoT**
 
 ![NVIDIA Jetson](https://img.shields.io/badge/NVIDIA%20Jetson-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white)
 
-- Edge devices: NVIDIA Jetson (AGX, Orin, Nano), Raspberry Pi; FP16/INT8 model quantization
+- Edge devices: NVIDIA Jetson (AGX, Orin, Orin Nano, Nano); FP16/INT8 model quantization
 - Industrial cameras: Keyence, Basler, Cognex, Dino-Lite
 - Industrial integration: PLC, RS485, ESP32, Telegram API
 - Networking & IT: LAN/Wi-Fi, TCP/IP, router/switch configuration, PC maintenance, user support
