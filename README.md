@@ -82,7 +82,7 @@
 - Label inspection with cascaded detectors and a configurable rule engine (split lines → OK / NG), object tracking to count each bottle once, and per-product profiles
 - Acquired live data from industrial cameras (Keyence, Basler, Cognex, Dino-Lite) using OpenCV and hardware-accelerated GStreamer
 - Collected raw production-line data, filtered noise and manually labeled images to build a high-quality ground-truth dataset
-- Deployed on Jetson Orin / Orin Nano / Nano and an RTX 5060 workstation; optimized with TensorRT and ONNX (FP16/INT8) for **real-time latency under 20 ms**
+- Deployed on Jetson Orin / Orin Nano / Nano and an RTX 5060 workstation; optimized with TensorRT and ONNX (FP16/INT8): **~290 ms** per 10 MP image for appearance inspection and **~150 ms** per image for label inspection, within the line cycle time
 - PLC-triggered capture and real-time NG signals to **Keyence PLCs** to trigger air blowers or robotic arms that remove defective products from the line
 - Built a desktop app (PyQt5) and web apps (FastAPI/Flask) with real-time monitoring dashboards, logging and defect statistics on PostgreSQL
 - Instant alerts via Telegram API; buzzers and warning lights controlled over Modbus RTU / RS485 / ESP32
@@ -111,7 +111,7 @@
 
 | Project | Domain | Highlights |
 |---|---|---|
-| 🏭 [Industrial AI Visual Inspection System](https://github.com/LinhNhat07/Industrial-AI-Visual-Inspection-System) | Computer Vision · Edge AI | Appearance defects (RT-DETR + PatchCore) and label skew/inversion (YOLO / RTMDet / RT-DETR) on Jetson, < 20 ms, PLC/Modbus |
+| 🏭 [Industrial AI Visual Inspection System](https://github.com/LinhNhat07/Industrial-AI-Visual-Inspection-System) | Computer Vision · Edge AI | Appearance defects (RT-DETR + PatchCore) and label skew/inversion (YOLO / RTMDet / RT-DETR) on Jetson, 150–290 ms per image, PLC/Modbus |
 | 🚦 [VR-TSD: Vietnamese Traffic Sign Recognition](https://github.com/LinhNhat07/VR-TSD-Vietnamese-Traffic-Sign-Recognition) | Computer Vision · Research | CSA 2025 paper (co-author), mAP@50 0.94, 168 FPS + Vietnamese voice alerts |
 | 💬 [Vietnamese News Comment Sentiment Classification](https://github.com/LinhNhat07/Vietnamese-Comment-Sentiment-PhoBERT) | NLP | PhoBERT on 9.2k labeled VnExpress reader comments, 78% accuracy |
 | 🏠 [HCMC House Price Prediction](https://github.com/LinhNhat07/HCMC-House-Price-Prediction) | Machine Learning | XGBoost on 9.5k crawled listings, R² 0.80 |
