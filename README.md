@@ -15,7 +15,7 @@
 
 ## 🧑‍💻 About Me
 
-- 🎓 **B.Sc. in Data Science – Information Technology**, Ho Chi Minh City University of Technology (HUTECH), 2021 – 2025
+- 🎓 **B.Sc. in Data Science – Information Technology**, Ho Chi Minh City University of Technology, 2021 – 2025
 - 🏭 **AI Engineer** at **Hondaplus Vietnam Co., Ltd.**, building AI-powered quality inspection systems for production lines
 - 🔭 Focus areas: **Computer Vision** (object detection, segmentation, anomaly detection), **VLM**, **OCR**, **Edge AI**, **LLM & RAG**
 - 📄 Author of **VR-TSD**, published at the international conference **CSA 2025** (Springer)
