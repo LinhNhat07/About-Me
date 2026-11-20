@@ -18,7 +18,7 @@
 - 🎓 **B.Sc. in Data Science – Information Technology**, Ho Chi Minh City University of Technology, 2021 – 2025
 - 🏭 **AI Engineer** at **Hondaplus Vietnam Co., Ltd.**, building AI-powered quality inspection systems for production lines
 - 🔭 Focus areas: **Computer Vision** (object detection, segmentation, anomaly detection), **VLM**, **OCR**, **Edge AI**, **LLM & RAG**
-- 📄 Author of **VR-TSD**, published at the international conference **CSA 2025** (Springer)
+- 📄 Co-author of **VR-TSD**, published at the international conference **CSA 2025** (Springer)
 - 🌐 Languages: Vietnamese (native), English (basic), Chinese (basic)
 - 📫 Reach me at **nlinh.nh7@gmail.com**
 
@@ -112,19 +112,20 @@
 | Project | Domain | Highlights |
 |---|---|---|
 | 🏭 [Industrial AI Visual Inspection System](https://github.com/LinhNhat07/Industrial-AI-Visual-Inspection-System) | Computer Vision · Edge AI | Appearance defects (RT-DETR + PatchCore) and label skew/inversion (YOLO / RTMDet / RT-DETR) on Jetson, < 20 ms, PLC/Modbus |
-| 🚦 [VR-TSD: Vietnamese Traffic Sign Recognition](https://github.com/LinhNhat07/VR-TSD-Vietnamese-Traffic-Sign-Recognition) | Computer Vision · Research | CSA 2025 paper, mAP@50 0.94, 168 FPS |
+| 🚦 [VR-TSD: Vietnamese Traffic Sign Recognition](https://github.com/LinhNhat07/VR-TSD-Vietnamese-Traffic-Sign-Recognition) | Computer Vision · Research | CSA 2025 paper (co-author), mAP@50 0.94, 168 FPS + Vietnamese voice alerts |
 | 📰 [Vietnamese News Sentiment Classification](https://github.com/LinhNhat07/Vietnamese-News-Sentiment-Classification) | NLP | PhoBERT on 18.9k VnExpress articles |
 | 🏠 [HCMC House Price Prediction](https://github.com/LinhNhat07/House_Price) | Machine Learning | XGBoost, R² 0.80 on 9.5k listings |
 
 ### 🚦 [VR-TSD: Vietnamese Traffic Sign Recognition](https://github.com/LinhNhat07/VR-TSD-Vietnamese-Traffic-Sign-Recognition)
 > *A Real-World Dataset and a Lightweight YOLOv8n Model for Traffic Sign Recognition in Vietnam*
 
-- 📄 Paper accepted at **CSA 2025 – The 17th International Conference on Computer Science and its Applications** · [Read on Springer](https://link.springer.com/chapter/10.1007/978-981-95-7896-2_10)
-- Real-world traffic sign dataset with an end-to-end pipeline (collection, preprocessing, manual labeling)
-- Benchmarked YOLOv5, YOLOv8 and YOLOv11; chose **YOLOv8n** for its balance of accuracy and latency
-- Results: **mAP@50 = 0.94**, **168.86 FPS (5.92 ms/image)** on an NVIDIA A100; automatic voice alerts
-- Tech: `Python` `OpenCV` `PyTorch` `gTTS`
-- 🎬 [Demo](https://drive.google.com/file/d/1JtekjwLvfJC0tHHrWJdlvd40RyeMrAkl/view?usp=drive_link)
+- 📄 **Co-author** of the paper published at **CSA 2025 – The 17th International Conference on Computer Science and its Applications** · [Read on Springer](https://link.springer.com/chapter/10.1007/978-981-95-7896-2_10)
+- **VR-TSD dataset:** 58 classes, 8,078 images, 13,016 manually labeled boxes from dash cams and phones (night, backlight, rain, occlusion)
+- Benchmarked 6 lightweight models (YOLOv5nu/su, YOLOv8n/s, YOLO11n/s); chose **YOLOv8n** for its balance of accuracy, speed and size
+- Results: **mAP@0.5 = 0.9434**, **168.86 FPS** on an NVIDIA A100, **77.52 FPS** on iPhone 11 Pro Max (NCNN), 6 MB
+- **Extension beyond the paper:** real-time pipeline with **Vietnamese voice alerts** (temporal filtering, per-sign cooldown, gTTS)
+- Tech: `Python` `PyTorch` `Ultralytics` `Roboflow` `NCNN` `OpenCV` `gTTS`
+- 🎬 [Voice alert demo](https://drive.google.com/file/d/1JtekjwLvfJC0tHHrWJdlvd40RyeMrAkl/view)
 
 ### 🏠 [Ho Chi Minh City House Price Prediction with XGBoost (2026)](https://github.com/LinhNhat07/House_Price)
 - Cleaned a dataset of **9,481 real-estate listings**; handled outliers and missing values, engineered features
