@@ -31,6 +31,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 
 **AI / Deep Learning**
@@ -53,6 +54,7 @@
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![PyQt5](https://img.shields.io/badge/PyQt5-41CD52?style=flat-square&logo=qt&logoColor=white)
 ![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat-square&logo=socketdotio&logoColor=white)
@@ -89,6 +91,18 @@
 - System in production at the company and at its **parent company in Japan**
 - 🎬 [Project demo](https://drive.google.com/drive/folders/1SxIDtwbnsQlO3FvqJkyTdKspGBzYx1n4?usp=sharing)
 
+**🏷️ [VisionAnnotate – Internal Data Annotation Web](https://github.com/LinhNhat07/internal-annotation-web)**
+- Self-hosted, CVAT-style web app for labeling images and video inside the company network: images and labels never leave local machines
+- Bounding boxes, polygons, masks, keypoints / pose, image classification and video tracking (keyframe interpolation + OpenCV auto-tracking)
+- Batch workflow (Uploaded → Annotating → Dataset), train / val / test split, class-balance analytics and in-browser preprocessing (crop, grayscale, CLAHE, edges)
+- Imports / exports **YOLO, COCO, Pascal VOC, CVAT, LabelMe, TFRecord, MOT** with offline augmentation, feeding the inspection models above
+- Zero-dependency **Node.js** server + vanilla JS; runs on Windows, macOS (Apple Silicon) and Linux, shared over LAN with a password
+- 📸 [Feature tour & screenshots](https://github.com/LinhNhat07/internal-annotation-web)
+
+<p align="center">
+  <a href="https://github.com/LinhNhat07/internal-annotation-web"><img src="https://raw.githubusercontent.com/LinhNhat07/internal-annotation-web/main/docs/screenshots/02-annotator-detection.jpg" width="720" alt="VisionAnnotate annotation workspace"/></a>
+</p>
+
 **🤖 Internal AI Chatbot**
 - Chatbot combining **RAG** with open-source LLMs (Gemma, gpt-oss, Qwen)
 - Python web app for employees to use on the company intranet
@@ -112,6 +126,7 @@
 | Project | Domain | Highlights |
 |---|---|---|
 | 🏭 [Industrial AI Visual Inspection System](https://github.com/LinhNhat07/Industrial-AI-Visual-Inspection-System) | Computer Vision · Edge AI | Appearance defects (RT-DETR + PatchCore) and label skew/inversion (YOLO / RTMDet / RT-DETR) on Jetson, 150–290 ms per image, PLC/Modbus |
+| 🏷️ [VisionAnnotate – Internal Data Annotation Web](https://github.com/LinhNhat07/internal-annotation-web) | Data Tooling · Web | Self-hosted CVAT-style labeling (boxes, polygons, masks, pose, video tracking), YOLO / COCO / VOC export, Windows · macOS · Linux |
 | 🚦 [VR-TSD: Vietnamese Traffic Sign Recognition](https://github.com/LinhNhat07/VR-TSD-Vietnamese-Traffic-Sign-Recognition) | Computer Vision · Research | CSA 2025 paper (co-author), mAP@50 0.94, 168 FPS + Vietnamese voice alerts |
 | 💬 [Vietnamese News Comment Sentiment Classification](https://github.com/LinhNhat07/Vietnamese-Comment-Sentiment-PhoBERT) | NLP | PhoBERT on 9.2k labeled VnExpress reader comments, 78% accuracy |
 | 🏠 [HCMC House Price Prediction](https://github.com/LinhNhat07/HCMC-House-Price-Prediction) | Machine Learning | XGBoost on 9.5k crawled listings, R² 0.80 |
