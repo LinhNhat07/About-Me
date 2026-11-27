@@ -99,10 +99,6 @@
 - Zero-dependency **Node.js** server + vanilla JS; runs on Windows, macOS (Apple Silicon) and Linux, shared over LAN with a password
 - 📸 [Feature tour & screenshots](https://github.com/LinhNhat07/internal-annotation-web)
 
-<p align="center">
-  <a href="https://github.com/LinhNhat07/internal-annotation-web"><img src="https://raw.githubusercontent.com/LinhNhat07/internal-annotation-web/main/docs/screenshots/02-annotator-detection.jpg" width="720" alt="VisionAnnotate annotation workspace"/></a>
-</p>
-
 **🤖 Internal AI Chatbot**
 - Chatbot combining **RAG** with open-source LLMs (Gemma, gpt-oss, Qwen)
 - Python web app for employees to use on the company intranet
